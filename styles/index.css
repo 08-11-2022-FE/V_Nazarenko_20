@@ -1,0 +1,245 @@
+header,
+main {
+  max-width: 81vw;
+  margin: 0 auto;
+}
+
+header {
+  margin: 38px auto;
+}
+
+.subtitle {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.5em;
+  color: #000000;
+}
+
+.l-main__title {
+  margin-bottom: 70px;
+}
+
+.c-main__title {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.l-section__title,
+.l-section__title-overview {
+  margin: 90px 0 50px 0;
+}
+
+.c-section__title {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+
+.l-section__text {
+  margin-top: 20px;
+}
+.l-section__text-overview {
+  max-width: 40.5vw;
+}
+
+.c-section__text,
+.c-section__text-final {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 32px;
+  letter-spacing: 0.05em;
+  color: #565656;
+}
+
+.section__image > img {
+  width: 100%;
+}
+
+footer {
+  background-color: #f4f4f4;
+  margin-top: 90px;
+}
+
+.footer__container {
+  max-width: 81vw;
+  margin: 0 auto;
+  padding: 70px 0 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 25px;
+}
+
+.contact__container {
+  min-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact__left-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 15px;
+}
+
+.contact__header {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: 0.05em;
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+.contact__link {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #000000;
+  text-decoration: unset;
+}
+
+.socials__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 23px;
+  cursor: pointer;
+}
+.socials__menu > li:hover > svg > .svg__background {
+  fill: #565656;
+}
+.socials__menu > li:hover > svg > .svg__icon {
+  fill: #ffffff;
+}
+
+.c-copyright {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+
+@media screen and (max-width: 768px) {
+  header,
+main {
+    max-width: 91vw;
+  }
+  header {
+    margin: 18px auto 68px;
+  }
+  .c-main__title {
+    font-size: 33px;
+    line-height: 50px;
+  }
+  .l-main__title {
+    margin-bottom: 50px;
+  }
+  .l-section__title {
+    margin: 70px 0 50px 0;
+  }
+  .c-section__text-final {
+    letter-spacing: 0.1em;
+  }
+  .l-section__text-overview {
+    max-width: unset;
+  }
+  .footer__container {
+    padding: 50px 0;
+    gap: 40px;
+  }
+  .contact__container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 40px;
+  }
+  .contact__left-side {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contact__header {
+    margin-bottom: 5px;
+  }
+}
+@media screen and (max-width: 320px) {
+  header,
+main {
+    max-width: 94vw;
+  }
+  header {
+    margin: 18px auto 18px;
+  }
+  .c-main__title {
+    font-size: 30px;
+  }
+  .l-main__title {
+    margin-bottom: 40px;
+  }
+  .l-section__title-overview,
+.l-section__title {
+    margin: 70px 0 40px 0;
+  }
+  .c-section__text,
+.c-section__text-final {
+    font-size: 16px;
+  }
+  footer {
+    margin-top: 70px;
+  }
+  .contact__header {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .contact__link {
+    font-size: 18px;
+  }
+  .c-copyright {
+    font-size: 16px;
+    text-align: center;
+  }
+}
